@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Aadhi000/OP-Files-Store-Bot",
-  "logo": "https://telegra.ph/file/12921701faf018f20c6a4.jpg",
+  "repository": "https://github.com/athulx80/ME-Files-Store-Bot",
+  "logo": "https://telegra.ph/file/97b6c9ce77dd143d00b24.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
