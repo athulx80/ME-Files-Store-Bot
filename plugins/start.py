@@ -90,11 +90,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                     [
-                        InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url="https://youtube.com/channel/UCqRmM0N9Z-7bBiTqJsfFWwg")                        
+                        InlineKeyboardButton("JOIN", url="https://t.me/+L8SWfrF_7m04ODZl")                        
                     ],
                     [
-                        InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data = "about"),
-                        InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
+                        InlineKeyboardButton("ABOUT", callback_data = "about"),
+                        InlineKeyboardButton("CLOSE", callback_data = "close")
                     ]
                 ]
             )        
@@ -163,7 +163,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<b><i>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃𝙸𝙽 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂....</i></b>")
+        pls_wait = await message.reply("<b><i>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃𝙸𝙽 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂...</i></b>")
         for row in query:
             chat_id = int(row[0])
             try:
@@ -182,7 +182,7 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳
+        status = f"""<b>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳!
 
 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: {total}
 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻: {successful}
